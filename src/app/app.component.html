@@ -1,0 +1,18 @@
+<html>
+    <body>
+        <h1>hello world</h1>
+        <div class="box" [style.color]='myColor' [style.font-weight]='fontweight'>
+            this is using styles
+        </div>
+        <div class="cube" [ngStyle]='myStyle'>using ngStyle</div>
+        <div class="second"><h2>i am in colour using styleUrls</h2></div>
+        <button (click)='change()' name='hi'>click me</button>
+        <div>
+            {{fName}}<br>
+            {{lName}}<br>
+            <input type='text' [value]=fName (key.control.,)="fName=$event.target.value"/>
+        <input type='text' [(ngModel)]='lName'/>
+        </div>
+        
+    </body>
+</html>
